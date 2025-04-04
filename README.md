@@ -1,0 +1,2 @@
+# FoxAi
+Foxai neoforge mod
