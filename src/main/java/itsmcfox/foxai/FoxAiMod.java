@@ -1,0 +1,1 @@
+// Entry point Java class for FoxAi mod will go here

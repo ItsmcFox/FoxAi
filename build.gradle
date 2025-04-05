@@ -1,34 +1,18 @@
 plugins {
-    id 'net.neoforged.gradle.userdev' version '7.0.81'
-    id 'maven-publish'
+    id 'net.neoforged.gradle.userdev' version '7.0.104'
 }
 
-version = '1.0.0'
 group = 'itsmcfox.foxai'
-
-base {
-    archivesName = 'foxai'
-}
+version = '1.0.0'
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(17)
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }
 
 minecraft {
-    mappings channel: 'official', version: '1.21.5'
+    version = '1.21.5'
 }
 
 dependencies {
-    implementation "net.neoforged:neoforge:1.21.5-47.0.0"
-}
-
-jar {
-    manifest {
-        attributes([
-            "Specification-Title": "FoxAi",
-            "Specification-Vendor": "itsmcfox",
-            "Implementation-Title": "FoxAi",
-            "Implementation-Version": version
-        ])
-    }
+    implementation 'net.neoforged:neoforge:1.21.5-47.1.0'
 }

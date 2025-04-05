@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+[[mods]]
+modId="foxai"
+version="1.0.0"
+displayName="FoxAi"
+description='''
+AI-powered companion mod for Minecraft that learns and grows.
+'''
