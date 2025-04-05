@@ -33,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: mod-artifact
-          path: build/libs/*.jar
+          path: build/libs/*.jar  # Path to the built .jar file, ensure this is correct based on your build output
