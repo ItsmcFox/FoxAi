@@ -19,5 +19,6 @@ dependencies {
 
 jar {
     archiveBaseName.set("FoxAi")
-    archiveVersion.set(project.version)
+    archiveVersion.set("1.0.0") // or "" to remove version from filename
+    archiveClassifier.set("Neoforge-1.21.5") // optional: set to "" to remove "plain" or other suffixes
 }
