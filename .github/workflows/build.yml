@@ -29,5 +29,5 @@ jobs:
       - name: Upload mod JAR
         uses: actions/upload-artifact@v4
         with:
-          name: FoxAi-Mod
+          name: FoxAi
           path: build/libs/*.jar
