@@ -28,3 +28,7 @@ jobs:
         with:
           name: FoxAi
           path: build/libs/*.jar
+
+      - name: Build with Gradle
+        run: ./gradlew clean build jar
+
