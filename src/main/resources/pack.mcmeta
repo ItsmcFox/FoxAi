@@ -1,4 +1,6 @@
 {
-  "pack_format": 12,
-  "description": "FoxAi mod for Minecraft"
+  "pack": {
+    "pack_format": 47,
+    "description": "FoxAi Resources"
+  }
 }
