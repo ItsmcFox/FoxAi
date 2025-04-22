@@ -21,8 +21,8 @@ tasks.register('buildJar') {
     dependsOn tasks.remapJar
 }
 
-tasks.named("remapJar", Jar) {
-    archiveBaseName.set("FoxAi")
-    archiveVersion.set("1.0.0")
-    archiveClassifier.set("Neoforge-1.21.5")
+jar {
+    archiveBaseName.set('foxai')
+    archiveVersion.set('1.0.0')
+    archiveClassifier.set('')
 }
